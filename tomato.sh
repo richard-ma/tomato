@@ -1,5 +1,5 @@
 #!/bin/bash
-tomato_path="~/tools/tomato"
+tomato_path="~/bin/tomato_resouces"
 
 at now + 24 minutes -q r 2>/dev/null <<EOF
 timidity -A 800 $tomato_path/prebreak2.mid &
